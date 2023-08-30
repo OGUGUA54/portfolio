@@ -22,7 +22,7 @@ window.onscroll = () => {
  
 
 function  phone(){
-     alert("Kindly fill out the form call then 08033656200.")
+     alert("Kindly fill out the form  then  call 08033656200.")
 }
 
 function  Email(){
