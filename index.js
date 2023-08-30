@@ -19,9 +19,7 @@ window.onscroll = () => {
      navbar.classList. remove('active');
 }
 
-function tiktok(){
-     alert(" 404 cannot be found try searching kingvictor138 on tiktok.")
-}
+ 
 
 function  phone(){
      alert("Kindly fill out the form call then 08033656200.")
