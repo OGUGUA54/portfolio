@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> personal portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+  <header class="sticky">
+  
+    <a href="#" class="logo"><img src="Screenshot (62).png" width="100px" height="80"></a>
+ 
+    <div class="bx bx-menu" id="menu-icon"><box-icon name='menu'></box-icon></div>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#services">services</a></li>
+      <li><a href="#portfolio">Myportfolio</a></li>
+      <li><a href="#contact" onclick="contact()">Contact</a></li>
+    </ul>
+  </header>
+
+
+  <section class="home" id="home">
+    <div class="home-text">
+      <h4>Hello</h4>
+      <h1>I'M NDUKAOBIKWELU<br><span>Ogugua</span></h1>
+      <h3> I'M A FRONT-END Developer</h3>
+      <a href="#contact" class="btn" onclick="contact()"> Hire me</a>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="about" id="About">
+    <div class="about-img">
+      <img src="IMG-20230202-WA0000_3.jpg" width="300px">
+    </div>
+
+    <div class="about-text">
+      <h2>About me</h2>
+      <h4>Hi, my name is Ndukaobikwelu ogugua</h4>
+      <p>I am a frontend Developer with skills including<br>
+        html,css and javascript and am currently <br>undergoing
+        training on frameworks such as reactJS.<br>
+        I have had a number of years of practical experience,<br>
+        working on different projects and building multiple<br>
+        websites.
+        My qualifications include a 2months<br> treaining
+        programme with genesys tech hub Enugu,<br> several online classes and a <br> 6 months coding
+        bootcamp with DCTP Africa.<br>
+        Feel free to reach me for your website building and design. </p>
+      <div class="about-gri">
+        <div class="about-in">
+          <h5>1.problem solving </h5>
+        </div>
+
+        <div class="about-in">
+          <h5>2. creative ideas </h5>
+        </div>
+
+
+        <div class="about-in">
+          <h5>3. High quality services </h5>
+        </div>
+
+        <div class="about-in">
+          <h5>4. stright forward attitude </h5>
+        </div>
+
+      </div>
+      <a href="#contact" class="btn" onclick="contact()"> Contact</a>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="services" id="services">
+    <div class="main-text">
+      <h2> My services</h2>
+      <h4>better Design, Better Experiences</h4>
+    </div>
+    <div class="services-content">
+      <div class="box">
+
+        <h3>web landing page<br>design</h3>
+        <p>Every website must have a proper landing page
+          well built and well designed and I am always ready to bring the best quality
+          design and layouts in building your websites
+        </p>
+      </div>
+
+      <div class="box">
+
+        <h3>E-commerce websites</h3>
+        <p>Everyone nowadays needs a way of expanding their business
+          popularity and getting to a wider scope of people and
+          a website is obviously the right choice
+        </p>
+      </div>
+
+      <div class="box">
+
+        <h3>website design</h3>
+        <p>Every website needs proper design and responsive attributes
+          this constitutes to the display of the webpage giving it a more official outlook
+          outlook
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--portfolio-->
+  <section id="portfolio" class=" portfolio">
+    <div class="main-text">
+      <h2> My portfolio</h2>
+      <h4>better Design, Better Experiences</h4>
+    </div>
+
+    <div class="portfolio-content">
+      <div class="row">
+        <a href="https://ogugua54.github.io/treasure-s-cakes/"> <img class="Screenshot" src="Screenshot (67).png"></a>
+        <div class="main-row">
+          <div class="row-text">
+            <h6> design</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <h3>cake webpage design</h3>
+      </div>
+
+      <div class="row">
+        <a href="https://ogugua54.github.io/OG-macpro/"><img class="Screenshot" src="Screenshot (65).png"></a>
+        <div class="main-row">
+          <div class="row-text">
+            <h6> design</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <h3>E-commerce website</h3>
+      </div>
+
+      <div class="row">
+        <a href="https://ogugua54.github.io/quiz-app2/"><img class="Screenshot" src="Screenshot (66).png"></a>
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <h3>quiz game</h3>
+      </div>
+
+      <div class="row">
+        <a href="https://ogugua54.github.io/Game-season/"><img class="Screenshot" src="Screenshot (64).png"></a>
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <h3> tictac toe game</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>contact Me</h2>
+      <h4>Let's Work together</h4>
+      <p>You can always have an assurity of the best results when hiring me</p>
+
+      <div class="contact-list">
+        <li><a href="#">Ndukaobikwelu Ogugua</a></li>
+        <li><a href="#">thierryvictor88@gmail.com</a></li>
+        <li><a href="#">08033656200</a></li>
+      </div>
+
+      <div class="contact-icons">
+
+     <i>   <a href="#"><img src="phone-solid-24.png" class="fot"  onclick="phone()"></a></i>
+      </div>
+
+      <div class="contact-icons">
+       <i> <a href=""><img src="tiktok-logo-24.png" class="fot" onclick="tiktok()"></a></i>
+      </div>
+
+      <div class="contact-icons">
+         <i><a href="#"><img src="envelope-solid-24.png" class="fot"  onclick="Email()"></a></i>
+         
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formspree.io/f/xjvqgndb" method="post">
+      <input type="" placeholder="Enter Your name " >
+      <input type="email" placeholder="Enter Your email">
+      <input type="" placeholder="Enter kind of website needed"  >
+      <textarea name="textarea" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+      <input type="submit" name="submit" value="submit" class="send">
+    </div>
+  </section>
+
+  <div class="last-text">
+    <p>Developed by Ndukaobikwelu Ogugua<br> © copyright 2023</p>
+  </div>
+
+  <!-- scroll top -->
+  <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+   <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>  -->
+<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  <script src="index.js"></script>
+</body>
+
+</html>
