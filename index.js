@@ -29,14 +29,12 @@ alert("Kindly fill out the form")
 function  contact(){
 alert('NOTE: All fields are required when filling the form')
 }
-// // import ScrollReveal from 'scrollreveal';
-// // window.sr = ScrollReveal();
-//  ('scrollreveal')().reveal('.sreveal')
- const sr = scrollreveal ({
+ 
+window.sr = ScrollReveal ({
     distance: '25px',
       duration: 2500,
       reset: true
 })
 
-/sr.reveal('.home-text',{delay:190, origin:'bottom'})
- sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
+sr.reveal('.home-text',{delay:19, origin:'top'})
+ sr.reveal('.about,.services,.portfolio,.contact',{delay:20, origin:' top'})
