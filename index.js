@@ -21,10 +21,7 @@ window.onscroll = () => {
 
  
 
-function  phone(){
-     alert("Kindly fill out the form  then  call 08033656200.")
-}
-
+ 
 function  Email(){
 alert("Kindly fill out the form")
 }
@@ -35,11 +32,11 @@ alert('NOTE: All fields are required when filling the form')
 // // import ScrollReveal from 'scrollreveal';
 // // window.sr = ScrollReveal();
 //  ('scrollreveal')().reveal('.sreveal')
-// const sr = crollreveal ({
-//      distance: '25px',
-//      duration: 2500,
-//      reset: true
-// })
+ const sr = scrollreveal ({
+    distance: '25px',
+      duration: 2500,
+      reset: true
+})
 
-// sr.reveal('.home-text',{delay:190, origin:'bottom'})
-// sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
+/sr.reveal('.home-text',{delay:190, origin:'bottom'})
+ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
