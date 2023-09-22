@@ -38,3 +38,11 @@ window.sr = ScrollReveal ({
 
 sr.reveal('.home-text',{delay:19, origin:'top'})
  sr.reveal('.about,.services,.portfolio,.contact',{delay:20, origin:' top'})
+
+//  if ( "body" = onscroll ) {
+//      window.sr = ScrollReveal ({
+//           distance: '25px',
+//             duration: 2500,
+//             reset: true
+//       }).disable
+//  }
